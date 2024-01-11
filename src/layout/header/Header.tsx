@@ -17,6 +17,9 @@ export const Header = () => {
 };
 
 const StyledHeader = styled.header`
+  background-color: #d3ffd3;
   display: flex;
+  justify-conten: start;
+  gap: 30px;
 `
 

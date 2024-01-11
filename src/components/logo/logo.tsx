@@ -13,7 +13,5 @@ export const Logo = () => {
 };
 
 const StyledLogo = styled.a`
-  img {
-    margin-right: auto;
-  }
+  margin-right: auto;
 `
