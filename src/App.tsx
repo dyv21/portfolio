@@ -1,17 +1,19 @@
 import './App.css';
 import styled from 'styled-components';
+import {Header} from "./layout/header/Header";
 
 
 function App() {
     return (
         <div className="App">
-            <Title>Styled-components <span>.attrs</span> method</Title>
+          <Header/>
+            {/*<Title>Styled-components <span>.attrs</span> method</Title>*/}
 
-            <Form>
-                <Field/>
-                <Field/>
-                <Field/>
-            </Form>
+            {/*<Form>*/}
+            {/*    <Field/>*/}
+            {/*    <Field/>*/}
+            {/*    <Field/>*/}
+            {/*</Form>*/}
         </div>
     );
 }
