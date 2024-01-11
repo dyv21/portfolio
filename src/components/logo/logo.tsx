@@ -6,7 +6,7 @@ export const Logo = () => {
   return (
     <StyledLogo href="/">
 
-      <Icon iconId={'git-icon'}/>
+      <Icon iconId={'github-icon'}/>
 
     </StyledLogo>
   );
