@@ -6,6 +6,7 @@ import {About} from "./layout/sections/about/About";
 import {Socials} from "./components/socials/Socials";
 import {Skills} from "./layout/sections/skills/Skills";
 import {Projects} from "./layout/sections/projects/Projects";
+import {Contact} from "./layout/sections/contact/Contact";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <About/>
           <Skills/>
           <Projects/>
+          <Contact/>
             {/*<Title>Styled-components <span>.attrs</span> method</Title>*/}
 
             {/*<Form>*/}
