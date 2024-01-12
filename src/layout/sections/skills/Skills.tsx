@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 export const Skills = () => {
   return (
-    <div>
+    <StyledSkills>
       <h2>My Tech Stack</h2>
       <h3>Technologies I’ve been working with recently</h3>
       <StyledSkillsList>
@@ -22,9 +22,13 @@ export const Skills = () => {
         <li><Icon iconId={'vscode'} width={'120'} height={'120'} viewbox={'0 0 120 120'}/></li>
         <li><Icon iconId={'github-icon'} width={'120'} height={'120'}  viewbox={'0 0 120 120'}/></li>
       </StyledSkillsList>
-    </div>
+    </StyledSkills>
   );
 };
+
+const StyledSkills = styled.div`
+  background-color: #efe4e6;
+`
 
 const StyledSkillsList = styled.ul`
   display: flex;
