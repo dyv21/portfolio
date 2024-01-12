@@ -17,7 +17,6 @@ const StyledContact = styled.section`
   h2, a {
     font-size: 58px;
     text-align: center;
-    margin:  0 auto;
     display: block;
   }
  
